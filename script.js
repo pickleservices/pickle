@@ -13,6 +13,8 @@ function openIframe(url) {
                 <head>
                     <meta charset="UTF-8">
                     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+                    <script src="path/to/ruffle.js"></script>
                     <link rel="icon" href="https://ssl.gstatic.com/docs/doclist/images/drive_2022q3_32dp.png?" type="image/x-icon">                     
                     <link rel="shortcut icon" href="https://ssl.gstatic.com/docs/doclist/images/drive_2022q3_32dp.png?" type="image/x-icon">                     
                     <title>Google Drive - My Drive</title>                     
@@ -44,7 +46,9 @@ function openIframe(url) {
   }
   
   
-  
+function notWorking() {
+    alert("This link is not working right now. Sorry.");
+}
     
     
   
