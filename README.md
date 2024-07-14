@@ -1,2 +1,2 @@
 # webpage
- My website, the home of Pickle.
+ My website, the home of Rasta.
