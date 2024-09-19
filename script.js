@@ -44,7 +44,7 @@ function openIframe(url) {
       }
   }
   
-  // function that alerts user if something is not working
+  
 function notWorking() {
     alert("This link is not working right now. Sorry.");
 }
