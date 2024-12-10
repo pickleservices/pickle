@@ -22,19 +22,6 @@
 </head>
 <body>
 
-  <script type="text/javascript">
-    (function(l) {
-      if (l.search[1] === '/' ) {
-        var decoded = l.search.slice(1).split('&').map(function(s) { 
-          return s.replace(/~and~/g, '&')
-        }).join('?');
-        window.history.replaceState(null, null,
-            l.pathname.slice(0, -1) + decoded + l.hash
-        );
-      }
-    }(window.location))
-  </script>
-  
   <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container-fluid">
       <a class="navbar-brand main-title" href="index.html">Pickle v1.2</a>
@@ -63,7 +50,7 @@
           <div class="card-body">
             <h5 class="card-title">1v1.lol</h5>
             <p class="card-text">1v1.lol game</p>
-            <button class="btn btn-outline-primary" onclick='openIframe("./games/1v1.lol/index.html")'>Go To</button>
+            <button class="btn btn-outline-primary" onclick='openIframe("pickleservices.github.io/pickleservices.github.io/games/1v1.lol/index.html")'>Go To</button>
           </div>
         </div>
         <div class="card text-bg-dark mb-3" style="width: 18rem;">
