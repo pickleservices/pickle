@@ -1,7 +1,13 @@
 body {
     background-color: #0a0b0c;
     color: white !important;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
+
+
 
 .navbar-light {
     background-color: rgb(23, 24, 27) !important;
@@ -10,4 +16,8 @@ body {
 
 a {
     color: white !important;
+}
+
+.custom-link-color {
+    color: #0d6efd !important; /* The desired primary color */
 }
