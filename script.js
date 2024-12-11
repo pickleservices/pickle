@@ -48,3 +48,21 @@ function openIframe(url) {
 function notWorking() {
     alert("This link is not working right now. Sorry.");
 }
+
+
+document.getElementById('searchInput').addEventListener('input', function () {
+    const query = this.value.toLowerCase(); // Get the search query
+    const cards = document.querySelectorAll('.game-card'); // Select all cards
+
+    cards.forEach(card => {
+      const title = card.querySelector('.card-title').textContent.toLowerCase();
+      const description = card.querySelector('.card-text').textContent.toLowerCase();
+
+      // Show or hide card based on query match
+      if (title.includes(query) || description.includes(query)) {
+        card.style.display = ''; // Show card
+      } else {
+        card.style.display = 'none'; // Hide card
+      }
+    });
+  });
