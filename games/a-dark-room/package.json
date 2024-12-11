@@ -11,6 +11,7 @@
     "update_pot": "pybabel extract -F lang/babel.cfg -c \"TRANSLATORS\" script -o lang/adarkroom.pot"
   },
   "dependencies": {
+    "adarkroom": "file:",
     "express": "^4.17.1"
   }
 }
