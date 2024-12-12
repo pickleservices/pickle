@@ -21,3 +21,18 @@ a {
 .custom-link-color {
     color: #0d6efd !important; /* The desired primary color */
 }
+
+#browser {
+    width: 100%;
+    height: 80vh;
+    border: none;
+    margin-top: 10px;
+}
+input, button {
+    padding: 10px;
+    font-size: 16px;
+    margin: 5px;
+}
+input {
+    width: 60%;
+}
